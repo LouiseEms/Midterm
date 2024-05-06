@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    background-color: peachpuff; /* Changed background color to peach */
+    color: black; /* Changed text color to black */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Keep titles in dark color */
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    background-color: white; /* Changed background color of paragraphs to white */
+    color: black; /* Changed font color of paragraphs to black */
+    padding: 10px; /* Added padding for better readability */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cloud Sections */
+.cloud-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.cloud-info {
+    max-width: 800px;
+    text-align: center;
+}
+
+.cloud-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Elegant Design Elements */
+.cloud-section {
+    background-color: peachpuff; /* Changed background color of cloud sections to peach */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    color: black; /* Changed font color of cloud sections to black */
+}
+
+.features h3, .benefits h3, .challenges h3 {
+    color: #007bff; /* Changed color of section headings to blue */
+    margin-bottom: 15px;
+}
+
+.features ul, .benefits ul, .challenges ul {
+    padding-left: 20px;
+}
+
+.features li, .benefits li, .challenges li {
+    margin-bottom: 10px;
+}
+
+/* AI Design Elements */
+header {
+    background-image: url('ai_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 50px;
+}
+
+.cloud-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #007bff;
+}
